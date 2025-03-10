@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
@@ -12,10 +12,10 @@ import mock10 from '../assets/images/mock10.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
-    return(
+  return (
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
-        <div className="projects-grid">
+      <h1>Personal Projects</h1>
+      {/* <div className="projects-grid">
             <div className="project">
                 <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
@@ -66,9 +66,10 @@ function Project() {
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
                 <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
             </div>
-        </div>
+        </div> */}
+      <p className="text-white">coming soon...</p>
     </div>
-    );
+  );
 }
 
 export default Project;
